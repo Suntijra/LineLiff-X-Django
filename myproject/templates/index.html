@@ -1,0 +1,24 @@
+{%extends 'main.html'%}
+{%load static%}
+
+{%block fontsGoogle%} 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'fonts/icomoon/style.css' %}">
+{%endblock%}
+
+{%block bootstrap_CSS%} 
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+{%endblock%}
+
+{%block Style%} 
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+{%endblock%}
+
+
+{%block script%}
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/jquery.validate.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+{%endblock%}
